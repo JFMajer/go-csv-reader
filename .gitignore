@@ -22,3 +22,6 @@ go.work
 
 # sqlite db files
 *.db
+
+# compiled binary
+colStats

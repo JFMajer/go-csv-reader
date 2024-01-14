@@ -14,7 +14,7 @@ func main() {
 	flag.Parse()
 
 	if err := run(flag.Args(), *op, *column, os.Stdout); err != nil {
-		fmt.Println(os.Stderr, err)
+		fmt.Fprintln(os.Stderr, err)
 	}
 }
 
