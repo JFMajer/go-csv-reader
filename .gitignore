@@ -25,3 +25,6 @@ go.work
 
 # compiled binary
 colStats
+
+# test csv files
+/testdata/
